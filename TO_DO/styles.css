@@ -1,0 +1,66 @@
+body{
+    background: url('pic.jpg');
+}
+.main{
+    margin:50px;
+    width: 50% auto;
+    padding: 50px;
+    text-align: center;
+    height: 100vh;
+}
+.item_name {
+    padding: 2px;
+    /* display: none; */
+    border:2px solid lightseagreen;
+    border-radius: 5px;
+}
+.btn{
+    background-color: lightseagreen;
+    /* border: 3px solid lightskyblue; */
+    border-radius:2px;
+    padding:3px;
+}
+h2{
+    font-size:medium;
+    text-align:center;
+}
+h3{
+    
+    color:rgb(124, 28, 28);
+
+}
+.card-header{
+    padding: 5px;
+}
+.button{
+    background-color:rgb(80, 80, 224);
+    border-radius:4px;
+}
+.container{
+    width: 80%;
+    /* height: 80vh; */
+    padding: 5px;
+    align-items: center;
+    background-color: lightslategrey;
+    border-radius: 5px;
+
+}
+.list-title{
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+.action{
+    background-color: darkred;
+    border-radius: 6px;
+}
+table{
+    display: flexbox;
+}
+table, th,td{
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid  lightslategrey;
+    padding: 5px;
+    border-width: thin;
+    text-align: center;
+}
